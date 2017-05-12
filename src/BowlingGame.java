@@ -35,32 +35,25 @@ public class BowlingGame {
 			if (flagStrike){
 				if (flagDoubleStrike){
 					score += f.getFirstThrow();
-					System.out.println(score + " FlagDoubleStrike\n");
 					flagDoubleStrike = false;
 				} else if (flagStrike == true && f.isStrike() == true){
 					flagDoubleStrike = true;
-					System.out.println(score + " FlagDoubleStrikeTrue\n");
 				}
 				score += f.getFirstThrow() + f.getSecondThrow();
-				System.out.println(score + " flagStrike\n");
 				flagStrike = false;
 				
 			} else if (flagSpare){
 				score += f.getFirstThrow();
-				System.out.println(score + " flagSpare\n");
 				flagSpare = false;
 			}
 			if (f.isStrike()){
-				System.out.println(score + " isStrike\n");
 				flagStrike = true;
 			} else if(f.isSpare()){
-				System.out.println(score + " isSpare\n");
 				flagSpare = true;
 			}
 			
 			score += f.getFirstThrow() + f.getSecondThrow();
-			System.out.println(score + " score\n");
 		}
-		return 0;
+		return score;
 	}
 }
