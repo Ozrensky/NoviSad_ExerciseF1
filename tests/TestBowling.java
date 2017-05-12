@@ -66,9 +66,10 @@ public class TestBowling {
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(5,5));
+		bg.addFrame(new Frame(5,5));
 		bg.addFrame(new Frame(2,2));
 		
-		assertEquals("Greska ako nije dobijen ocekivani rezultat", 61, bg.score());
+		assertEquals("Greska ako nije dobijen ocekivani rezultat", 76, bg.score());
 	}
 	
 }
