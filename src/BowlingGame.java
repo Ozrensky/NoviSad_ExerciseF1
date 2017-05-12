@@ -26,8 +26,8 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	//public int score(){
-		/*int score = 0;
+	public int score(){
+		int score = 0;
 		boolean flagStrike = false;
 		boolean flagSpare = false;
 		boolean flagDoubleSpare = false;
@@ -37,10 +37,24 @@ public class BowlingGame {
 					score += f.getFirstThrow();
 					flagDoubleSpare = false;
 				}
-			} else if (flagSpare){
+				if (flagStrike == true && f.isStrike() == true){
+					flagDoubleSpare = true;
+				}
+				score += f.getFirstThrow() + f.getSecondThrow();
+				flagStrike = false;
 				
+			} else if (flagSpare){
+				score += f.getFirstThrow();
+				flagSpare = false;
 			}
+			if (f.isStrike()){
+				flagStrike = true;
+			} else if(f.isSpare()){
+				flagSpare = true;
+			}
+			
+			score += f.getFirstThrow() + f.getSecondThrow();
 		}
-		return 0;*/
-	//}
+		return 0;
+	}
 }
