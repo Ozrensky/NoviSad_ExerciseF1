@@ -36,8 +36,7 @@ public class BowlingGame {
 				if (flagDoubleSpare){
 					score += f.getFirstThrow();
 					flagDoubleSpare = false;
-				}
-				if (flagStrike == true && f.isStrike() == true){
+				} else if (flagStrike == true && f.isStrike() == true){
 					flagDoubleSpare = true;
 				}
 				score += f.getFirstThrow() + f.getSecondThrow();
