@@ -51,7 +51,6 @@ public class BowlingGame {
 			} else if(f.isSpare()){
 				flagSpare = true;
 			}
-			
 			score += f.getFirstThrow() + f.getSecondThrow();
 		}
 		return score;
