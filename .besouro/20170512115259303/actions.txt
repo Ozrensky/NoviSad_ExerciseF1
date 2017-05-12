@@ -47,3 +47,12 @@ RefactoringAction 1494583454095 TestBowling.java ADD void test_isSpare_true()/2 
 RefactoringAction 1494583456630 TestBowling.java RENAME test_isSpare_true()/2=>void test_isSpare_f() METHOD
 RefactoringAction 1494583457656 TestBowling.java RENAME test_isSpare_f()=>void test_isSpare_false() METHOD
 EditAction 1494583472229 TestBowling.java 978 5 10 5
+UnitTestCaseAction 1494583475861 TestBowling.java OK
+UnitTestSessionAction 1494583475863 TestBowling.java OK
+RefactoringAction 1494583914065 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1494583964439 TestBowling.java ADD void test FIELD
+RefactoringAction 1494583970482 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494583971526 TestBowling.java RENAME test_=>void test_A FIELD
+RefactoringAction 1494583974550 TestBowling.java RENAME test_A=>void test_Add_Frame FIELD
+RefactoringAction 1494583976079 TestBowling.java RENAME test_Add_Frame=>void test_Add_Frame() METHOD
+EditAction 1494584060357 TestBowling.java 1479 6 22 5

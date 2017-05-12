@@ -43,4 +43,21 @@ public class TestBowling {
 		
 		assertEquals("Greska ako nije dobijen ispravan izlaz", false, f.isSpare());
 	}
+	
+	@Test (expected = BowlingException.class)
+	public void test_Add_Frame() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+		bg.addFrame(new Frame(0,0));
+	}
+	
 }
