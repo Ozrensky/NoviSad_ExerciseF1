@@ -30,29 +30,36 @@ public class BowlingGame {
 		int score = 0;
 		boolean flagStrike = false;
 		boolean flagSpare = false;
-		boolean flagDoubleSpare = false;
+		boolean flagDoubleStrike = false;
 		for (Frame f : frames){
 			if (flagStrike){
-				if (flagDoubleSpare){
+				if (flagDoubleStrike){
 					score += f.getFirstThrow();
-					flagDoubleSpare = false;
+					System.out.println(score + " FlagDoubleStrike\n");
+					flagDoubleStrike = false;
 				} else if (flagStrike == true && f.isStrike() == true){
-					flagDoubleSpare = true;
+					flagDoubleStrike = true;
+					System.out.println(score + " FlagDoubleStrikeTrue\n");
 				}
 				score += f.getFirstThrow() + f.getSecondThrow();
+				System.out.println(score + " flagStrike\n");
 				flagStrike = false;
 				
 			} else if (flagSpare){
 				score += f.getFirstThrow();
+				System.out.println(score + " flagSpare\n");
 				flagSpare = false;
 			}
 			if (f.isStrike()){
+				System.out.println(score + " isStrike\n");
 				flagStrike = true;
 			} else if(f.isSpare()){
+				System.out.println(score + " isSpare\n");
 				flagSpare = true;
 			}
 			
 			score += f.getFirstThrow() + f.getSecondThrow();
+			System.out.println(score + " score\n");
 		}
 		return 0;
 	}
