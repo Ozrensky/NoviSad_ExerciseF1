@@ -17,3 +17,6 @@ RefactoringAction 1494583186345 TestBowling.java REMOVE test() METHOD
 RefactoringAction 1494583186347 TestBowling.java REMOVE test_Frame_Score() METHOD
 RefactoringAction 1494583188901 TestBowling.java ADD void test_Frame_Score() METHOD
 EditAction 1494583190320 TestBowling.java 321 1 2 1
+UnitTestCaseAction 1494583193873 TestBowling.java OK
+UnitTestSessionAction 1494583193875 TestBowling.java OK
+EditAction 1494583223318 Frame.java 690 6 8 0
