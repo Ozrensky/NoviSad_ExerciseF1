@@ -1,0 +1,11 @@
+FileOpenedAction 1494582779864 BowlingGame.java 708 4 1 0
+FileOpenedAction 1494582951794 BowlingException.java 58 0 0 0
+FileOpenedAction 1494582952705 Frame.java 671 6 7 0
+RefactoringAction 1494582969968 BowlingException.java ADD String Exception FIELD
+RefactoringAction 1494582971486 BowlingException.java RENAME Exception=>String Exception() METHOD
+FileOpenedAction 1494582990657 TestBowling.java 165 1 1 0
+RefactoringAction 1494583067821 TestBowling.java ADD void test FIELD
+RefactoringAction 1494583071355 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1494583073380 TestBowling.java RENAME test_=>void test_Frame FIELD
+RefactoringAction 1494583076411 TestBowling.java RENAME test_Frame=>void test_Frame_Score() METHOD
+EditAction 1494583159365 TestBowling.java 317 2 3 1
