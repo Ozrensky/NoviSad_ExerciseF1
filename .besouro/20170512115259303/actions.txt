@@ -11,3 +11,9 @@ RefactoringAction 1494583076411 TestBowling.java RENAME test_Frame=>void test_Fr
 EditAction 1494583159365 TestBowling.java 317 2 3 1
 EditAction 1494583167496 Frame.java 671 6 7 0
 EditAction 1494583172910 BowlingException.java 112 1 1 0
+UnitTestCaseAction 1494583177652 TestBowling.java FAIL
+UnitTestSessionAction 1494583177663 TestBowling.java FAIL
+RefactoringAction 1494583186345 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1494583186347 TestBowling.java REMOVE test_Frame_Score() METHOD
+RefactoringAction 1494583188901 TestBowling.java ADD void test_Frame_Score() METHOD
+EditAction 1494583190320 TestBowling.java 321 1 2 1
