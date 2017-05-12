@@ -15,4 +15,11 @@ public class TestBowling {
 		
 		assertEquals("Greska ako nije dobijen ocekivan zbir", 7, f.score());
 	}
+	
+	@Test
+	public void test_isStrike_true(){
+		Frame f = new Frame(10, 0);
+		
+		assertEquals("Greska ako nije dobijen ispravan izlaz", true, f.isStrike());
+	}
 }
