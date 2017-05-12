@@ -35,3 +35,9 @@ EditAction 1494583314384 TestBowling.java 652 3 6 3
 UnitTestCaseAction 1494583318389 TestBowling.java OK
 UnitTestSessionAction 1494583318391 TestBowling.java OK
 EditAction 1494583395705 Frame.java 751 6 9 0
+RefactoringAction 1494583404580 TestBowling.java ADD void test_isStrike_false()/2 METHOD
+RefactoringAction 1494583408607 TestBowling.java RENAME test_isStrike_false()/2=>void test_isSpear_false() METHOD
+RefactoringAction 1494583412137 TestBowling.java RENAME test_isSpear_false()=>void test_isSpear_true() METHOD
+RefactoringAction 1494583428348 TestBowling.java RENAME test_isSpear_true()=>void test_isSpar_true() METHOD
+RefactoringAction 1494583429949 TestBowling.java RENAME test_isSpar_true()=>void test_isSpare_true() METHOD
+EditAction 1494583439171 TestBowling.java 814 4 8 4
