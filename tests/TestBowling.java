@@ -60,4 +60,15 @@ public class TestBowling {
 		bg.addFrame(new Frame(0,0));
 	}
 	
+	@Test
+	public void test_Game_Score() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(5,5));
+		bg.addFrame(new Frame(2,2));
+		
+		assertEquals("Greska ako nije dobijen ocekivani rezultat", 61, bg.score());
+	}
+	
 }
