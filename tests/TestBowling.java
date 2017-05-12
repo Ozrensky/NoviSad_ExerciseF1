@@ -36,4 +36,11 @@ public class TestBowling {
 		
 		assertEquals("Greska ako nije dobijen ispravan izlaz", true, f.isSpare());
 	}
+	
+	@Test
+	public void test_isSpare_false(){
+		Frame f = new Frame(2, 5);
+		
+		assertEquals("Greska ako nije dobijen ispravan izlaz", false, f.isSpare());
+	}
 }
