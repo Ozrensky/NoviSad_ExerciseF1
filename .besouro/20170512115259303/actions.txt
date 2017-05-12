@@ -26,3 +26,9 @@ RefactoringAction 1494583247084 TestBowling.java RENAME test_is()=>void test_isS
 RefactoringAction 1494583249110 TestBowling.java RENAME test_isStrike()=>void test_isStrike_() METHOD
 RefactoringAction 1494583250136 TestBowling.java RENAME test_isStrike_()=>void test_isStrike_true() METHOD
 EditAction 1494583281538 TestBowling.java 486 2 4 2
+UnitTestCaseAction 1494583285612 TestBowling.java OK
+UnitTestSessionAction 1494583285614 TestBowling.java OK
+RefactoringAction 1494583305318 TestBowling.java ADD void test_isStrike_true()/2 METHOD
+RefactoringAction 1494583307349 TestBowling.java RENAME test_isStrike_true()/2=>void test_isStrike_fa() METHOD
+RefactoringAction 1494583308374 TestBowling.java RENAME test_isStrike_fa()=>void test_isStrike_false() METHOD
+EditAction 1494583314384 TestBowling.java 652 3 6 3
