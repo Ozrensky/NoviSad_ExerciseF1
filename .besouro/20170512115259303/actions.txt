@@ -10,3 +10,4 @@ RefactoringAction 1494583073380 TestBowling.java RENAME test_=>void test_Frame F
 RefactoringAction 1494583076411 TestBowling.java RENAME test_Frame=>void test_Frame_Score() METHOD
 EditAction 1494583159365 TestBowling.java 317 2 3 1
 EditAction 1494583167496 Frame.java 671 6 7 0
+EditAction 1494583172910 BowlingException.java 112 1 1 0
